@@ -1,0 +1,44 @@
+*.tfstate
+
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+override.tf
+override.tf.json
+crash.log
+/.idea/
+/.vscode/
+*.tfplan    
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform plan files
+*.tfplan
+
+# Sensitive variables
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+
+# CLI config
+.terraformrc
+terraform.rc
+
+# SSH Keys
+*.pem
+*.key
+id_rsa
+*.pub
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
