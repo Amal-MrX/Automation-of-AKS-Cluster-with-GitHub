@@ -1,1 +1,1 @@
-
+![Diagram](./docs/architecture.svg)
