@@ -6,8 +6,8 @@ terraform {
     }
   }
    backend "azurerm" {
-    resource_group_name  = "Test_RG_Stor"
-    storage_account_name = "automatingtfstorage "
+    resource_group_name  = "Test_RG_Storage"
+    storage_account_name = "automatingtfstorage"
     container_name       = "container1"
     key                  = "terraform.tfstate"
   }
